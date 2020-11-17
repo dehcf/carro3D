@@ -50,7 +50,7 @@ public class Cena implements GLEventListener {
             desenho da cena - Carrinho 3D       
         *
          */
-        gl.glRotatef(angulo, 1, 1, 0);
+        gl.glRotatef(angulo, 0, 1, 0);
 
         //desenha o corpo do carro
         gl.glPushMatrix();
